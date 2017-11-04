@@ -5,7 +5,7 @@ rules:
   rule: close_outdated_issues
   options:
     # ISO 8601 duration
-    older_than: PT5M
+    older_than: PT2M
     # Optional, apply label when closing
     apply_label: inactive
     # Optional, leave a comment when closing
@@ -16,7 +16,7 @@ rules:
   rule: close_outdated_pr
   options: 
     # ISO 8601 duration
-    older_than: P20D
+    older_than: PT2M
     # Optional, apply label when closing
     apply_label: inactive
     # Optional, leave a comment when closing
